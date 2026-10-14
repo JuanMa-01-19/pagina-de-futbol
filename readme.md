@@ -1,0 +1,2 @@
+Este es un proyecto personal donde mostrare mis resultados con selecciones futbolisticas en un juego llamado pes 6. Mostrare anotaciones, recortes, imagenes y resultados como si fuera un diaro futbolistico. Espero les guste :)
+Como configuré Formspree: Basicamente me cree una cuenta de formspree y por lo que entiendo es una herramienta que te guarda los formularios y es un medio por el cual puedo utilizar como url para enviar los datos que quiero. El formulario no es la gran cosa es algo simple pero es un primer paso. 

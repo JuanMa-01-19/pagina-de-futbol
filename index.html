@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- LO QUE NO SE VE -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Document</title>
+</head>
+
+<!-- LO QUE SE VE -->
+
+<body>
+    <header class="header-principal">
+
+
+
+        <button class="menu-hamburguesa" id="menu-btn" aria-label="Abrir menú">
+            ☰
+        </button>
+        <h1 style="color:rgb(14, 13, 13);">PASION!</h1>
+
+        <nav id="nav-menu" class="nav-principal">
+            <!-- Acá estamos dentro del nav-->
+            <ul class="miNav">
+                <li> <a href="#productos">Productos</a></li>
+                <li><a href="#contactos"></a>Contactos</a></li>
+                <li><a href="#resultados"></a>Resultaddos</li>
+                <li><a href="#noticias"></a>Noticias</li>
+            </ul>
+        </nav>
+
+        <div class="carrito-container">
+            <a href="#carrito" class="btn-carrito">🛒<span class="contador">0</span></a>
+        </div>
+
+    </header>
+    <main>
+        <section id="productos" class="productos">
+
+            <h2>Nuestros productos de futbol</h2>
+
+            <!--contenedor flex de remeras-->
+            <div class="contenedor_remeras">
+                <!--remera 1-->
+                <article class="Remera">
+                    <img src="img/acmilan.jpg" alt="Remera de acmilan" width="100">
+                    <h3>Remera AcMilan</h3>
+                    <p>Camiseta hombre 26/27.</p>
+                    <span class="precio">$150.000</span>
+                    <button type="button">Comprar</button>
+                </article>
+                <!--remera 2-->
+                <article class="Remera">
+                    <img src="img/barcelona.webp" alt="Remera del barcelona" width="100">
+                    <h3>Remera barcelona</h3>
+                    <p>Camiseta hombre 26/27.</p>
+                    <span class="precio">$150.000</span>
+                    <button type="button">Comprar</button>
+                </article>
+
+                <!--remera 3-->
+                <article class="Remera">
+                    <img src="img/river.webp" alt="Remera de river" width="100">
+                    <h3> Remera de River</h3>
+                    <p>Camiseta homnbre 26/27.</p>
+                    <span class="precio">$150.000</span>
+                    <button type="button">Comprar</button>
+                </article>
+            </div>
+        </section>
+        <section id="Contactos" class="contactos"></section>
+
+        <p style="color:white;
+            font-size: 22px;">Pagina dedicada a las ultimas novedades y noticias de futbol ademas de un amplio catalogo
+            de camisetas para los mas amantes del deporte </p>
+
+    </main>
+    <footer>
+        <p>© 2026 PASION! Todos los derechos reservados</p>
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const navMenu = document.getElementById('nav-menu');
+
+        menuBtn.addEventListener('click', () => {
+            navMenu.classList.toggle('activo');
+        });
+
+
+        let num1 = prompt("Ingrese un numero:");
+        let num2 = prompt("ingrese otro numero:");
+        let suma = num1 + num2;
+        document.write("<p> El resultado es: <strong>" + suma + "</strong></p>");
+
+    </script>
+</body>
+
+</html>
