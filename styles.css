@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
 body {
     margin: 0;
     min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
     background-image: url('img/fondo.jpg');
     background-size: cover;
     background-position: center;
@@ -33,24 +36,13 @@ body {
     color: white;
     font-size: 28px;
     cursor: pointer;
-    display: block;
+    display: none;
     order: -1;
 
 }
 
 .nav-principal {
-    position: absolute;
-    top: 100%;
-    /* Se ubica justo debajo del header verde */
-    left: 0;
-    width: 100%;
-    background-color: #15803d;
-    max-height: 0;
-    /* Altura cero: empieza cerrado y oculto */
-    overflow: hidden;
-    transition: max-height 0.3s ease-out;
-    /* Animación suave */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
 }
 
 .nav-principal ul {
@@ -77,9 +69,11 @@ body {
     border-radius: 6px;
 }
 
-h1 {
+h1,
+h2 {
     text-align: center;
 }
+
 
 /* Contenedor de las tarjetas con Flexbox */
 .contenedor_remeras {
@@ -91,6 +85,111 @@ h1 {
     /* Centra las tarjetas de forma prolija */
     align-items: center;
     padding: 20px;
+}
+
+footer {
+    background-color: #15803d;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+.resenas {
+    padding: 20px;
+}
+
+.resenas h2 {
+    text-align: center;
+}
+
+.contenedor-resenas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.resena {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.resena span {
+    font-weight: 700;
+    color: #15803d;
+}
+
+.Remera {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 220px;
+}
+
+.Remera img {
+    width: 100%;
+    height: auto;
+}
+
+.Remera .precio {
+    display: block;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+
+.contacto {
+    padding: 20px;
+}
+
+.contacto h2 {
+    text-align: center;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.contacto input,
+.contacto textarea {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.contacto button {
+    background-color: #15803d;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contacto button:hover {
+    background-color: #166534;
 }
 
 /* MEDIA QUERY: Adaptación para celulares */
@@ -112,6 +211,7 @@ h1 {
         /* Altura cero para que esté oculto */
         overflow: hidden;
         transition: max-height 0.3s ease-out;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         /* Animación suave al abrir/cerrar */
     }
 
@@ -125,5 +225,14 @@ h1 {
     /* Cuando JavaScript agrega la clase .activo, el menú se despliega */
     .nav-principal.activo {
         max-height: 300px;
+    }
+
+    .contenedor-resenas {
+        grid-template-columns: 1fr;
+    }
+
+    .contacto form {
+        max-width: 100%;
+        padding: 15px;
     }
 }

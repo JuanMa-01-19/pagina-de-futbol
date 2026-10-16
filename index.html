@@ -9,7 +9,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css">
 
-    <title>Document</title>
+    <title>PASION! - Camisetas de fútbol</title>
 </head>
 
 <!-- LO QUE SE VE -->
@@ -27,10 +27,10 @@
         <nav id="nav-menu" class="nav-principal">
             <!-- Acá estamos dentro del nav-->
             <ul class="miNav">
-                <li> <a href="#productos">Productos</a></li>
-                <li><a href="#contactos"></a>Contactos</a></li>
-                <li><a href="#resultados"></a>Resultaddos</li>
-                <li><a href="#noticias"></a>Noticias</li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#resenas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
 
@@ -48,7 +48,7 @@
             <div class="contenedor_remeras">
                 <!--remera 1-->
                 <article class="Remera">
-                    <img src="img/acmilan.jpg" alt="Remera de acmilan" width="100">
+                    <img src="img/acmilan.jpg" alt="Remera de acmilan">
                     <h3>Remera AcMilan</h3>
                     <p>Camiseta hombre 26/27.</p>
                     <span class="precio">$150.000</span>
@@ -56,7 +56,7 @@
                 </article>
                 <!--remera 2-->
                 <article class="Remera">
-                    <img src="img/barcelona.webp" alt="Remera del barcelona" width="100">
+                    <img src="img/barcelona.webp" alt="Remera del barcelona">
                     <h3>Remera barcelona</h3>
                     <p>Camiseta hombre 26/27.</p>
                     <span class="precio">$150.000</span>
@@ -65,7 +65,7 @@
 
                 <!--remera 3-->
                 <article class="Remera">
-                    <img src="img/river.webp" alt="Remera de river" width="100">
+                    <img src="img/river.webp" alt="Remera de river">
                     <h3> Remera de River</h3>
                     <p>Camiseta homnbre 26/27.</p>
                     <span class="precio">$150.000</span>
@@ -73,12 +73,43 @@
                 </article>
             </div>
         </section>
-        <section id="Contactos" class="contactos"></section>
+        <section id="resenas" class="resenas">
+            <h2>Reseñas de nuestros clientes</h2>
+            <div class="contenedor-resenas">
+                <article class="resena">
+                    <p>"Excelente calidad, la camiseta es igual a la original."</p>
+                    <span>- Juan</span>
+                </article>
+                <article class="resena">
+                    <p>"Llegó rapidísimo y bien embalada."</p>
+                    <span>- Lucía</span>
+                </article>
+                <article class="resena">
+                    <p>"Muy buen catálogo, ya voy por mi segunda compra."</p>
+                    <span>- Martín</span>
+                </article>
+            </div>
+        </section>
+        <section id="contactos" class="contactos">
+            <h2>Contacto</h2>
+            <form action="https://formspree.io/f/xeaerywp" method="POST">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
 
-        <p style="color:white;
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section id="inicio" class="inicio">
+            <p style="color:white;
             font-size: 22px;">Pagina dedicada a las ultimas novedades y noticias de futbol ademas de un amplio catalogo
-            de camisetas para los mas amantes del deporte </p>
-
+                de camisetas para los mas amantes del deporte </p>
+        </section>
     </main>
     <footer>
         <p>© 2026 PASION! Todos los derechos reservados</p>

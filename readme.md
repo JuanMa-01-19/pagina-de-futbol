@@ -1,2 +1,55 @@
-Este es un proyecto personal donde mostrare mis resultados con selecciones futbolisticas en un juego llamado pes 6. Mostrare anotaciones, recortes, imagenes y resultados como si fuera un diaro futbolistico. Espero les guste :)
-Como configuré Formspree: Basicamente me cree una cuenta de formspree y por lo que entiendo es una herramienta que te guarda los formularios y es un medio por el cual puedo utilizar como url para enviar los datos que quiero. El formulario no es la gran cosa es algo simple pero es un primer paso. 
+# PASION! ⚽
+
+Sitio web dedicado a las últimas novedades y noticias de fútbol, con un catálogo de camisetas para los más amantes del deporte.
+
+Este proyecto corresponde a la **Pre-Entrega** del curso (Clase 8 - Git y GitHub).
+
+## Propósito de la página
+
+Ofrecer una tienda online simple de camisetas de fútbol donde el visitante puede:
+
+- Conocer de qué trata el sitio (Inicio).
+- Ver los productos disponibles (Productos).
+- Leer opiniones de otros clientes (Reseñas).
+- Enviar una consulta mediante un formulario de contacto (Contacto).
+
+## Secciones
+
+| Sección | Descripción |
+|---|---|
+| Inicio | Presentación del sitio. |
+| Productos | Cards con las camisetas, organizadas con **Flexbox**. |
+| Reseñas | Opiniones de clientes, organizadas con **CSS Grid**. |
+| Contacto | Formulario con nombre, correo y mensaje, enviado mediante **Formspree**. Es responsivo con **Media Queries**. |
+
+## Tecnologías utilizadas
+
+- **HTML5** con estructura semántica (`header`, `nav`, `main`, `section`, `footer`).
+- **CSS3** en un archivo externo (`styles.css`): Flexbox, Grid, Media Queries y propiedades de background.
+- **Google Fonts** (Poppins).
+- **JavaScript** para el menú desplegable en celulares.
+- **Formspree** para el envío del formulario de contacto.
+- **GitHub Pages** para la publicación del sitio.
+
+## Estructura del proyecto
+
+```
+├── index.html
+├── styles.css
+├── procesar.js
+├── README.md
+└── img/
+    ├── fondo.jpg
+    ├── acmilan.jpg
+    ├── barcelona.webp
+    └── river.webp
+```
+
+## Ver el sitio
+
+- **Sitio publicado:** https://TU_USUARIO.github.io/NOMBRE_DEL_REPOSITORIO/
+- **Repositorio:** https://github.com/TU_USUARIO/NOMBRE_DEL_REPOSITORIO
+
+## Autor
+
+Proyecto realizado por Juan Manuel Nieto  como parte de la Pre-Entrega del curso.
