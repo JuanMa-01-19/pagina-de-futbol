@@ -47,7 +47,7 @@ Ofrecer una tienda online simple de camisetas de fútbol donde el visitante pued
 
 ## Ver el sitio
 
-- **Sitio publicado:** https://github.com/JuanMa-01-19/pagina-de-futbol
+- **Sitio publicado:**https://proyectofutboltalentotech.netlify.app/
 - **Repositorio:** https://github.com/JuanMa-01-19/pagina-de-futbol
 ## Autor
 
