@@ -47,9 +47,8 @@ Ofrecer una tienda online simple de camisetas de fútbol donde el visitante pued
 
 ## Ver el sitio
 
-- **Sitio publicado:** https://TU_USUARIO.github.io/NOMBRE_DEL_REPOSITORIO/
-- **Repositorio:** https://github.com/TU_USUARIO/NOMBRE_DEL_REPOSITORIO
-
+- **Sitio publicado:** https://github.com/JuanMa-01-19/pagina-de-futbol
+- **Repositorio:** https://github.com/JuanMa-01-19/pagina-de-futbol
 ## Autor
 
 Proyecto realizado por Juan Manuel Nieto  como parte de la Pre-Entrega del curso.
