@@ -53,7 +53,7 @@ catalogo.forEach(({ id, name, descripcion, precio, imagen }) => {
             tarjeta.appendChild(parrafo);
             boton.textContent = "Ocultar descripcion";
         }
-    })
+    });
 
     tarjeta.appendChild(titulo);
     tarjeta.appendChild(textoPrecio);
@@ -61,4 +61,5 @@ catalogo.forEach(({ id, name, descripcion, precio, imagen }) => {
     contenedor.appendChild(tarjeta);
 
 
-}); 
+});
+

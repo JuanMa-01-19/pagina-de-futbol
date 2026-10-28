@@ -148,6 +148,10 @@ footer p {
     margin: 10px 0;
 }
 
+.descripcion {
+    font-size: 14px;
+    margin: 10px 0 0;
+}
 
 .contacto {
     padding: 20px;
